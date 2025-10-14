@@ -14,6 +14,7 @@ ksp = "2.0.21-1.0.27"
 lifecycleViewmodelAndroid = "2.9.4"
 roomRuntime = "2.8.2"
 dagger = "2.52"
+kapt = "2.0.21"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -39,3 +40,4 @@ dagger-android-processor = { group = "com.google.dagger", name = "dagger-android
 android-application = { id = "com.android.application", version.ref = "agp" }
 kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
+kotlin-kapt = { id = "org.jetbrains.kotlin.kapt", version.ref = "kapt" }
